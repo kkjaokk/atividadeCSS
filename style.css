@@ -1,0 +1,109 @@
+/* Fundo e estilos gerais */
+body {
+    background-color: #f4f4f4;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Cabeçalho e navegação */
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#main-header h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+.menu li a:visited {
+    color: #aaa;
+}
+
+/* Seções principais */
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.section-info {
+    background-color: #f9f9f9;
+}
+
+/* Lista dentro da seção 'Sobre Nós' */
+#about .list-item {
+    color: #555;
+}
+
+#about ul li:nth-child(3) {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Formulário de contato */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #00aaff;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+section h2::before {
+    content: "— ";
+    color: #333;
+    font-weight: bold;
+}
